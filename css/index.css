@@ -248,7 +248,7 @@ footer {
 
 /* Tablet*/
 
-@media(min-width: 800px) {
+@media(max-width: 800px) {
 
     .container {
         width: 90%;
@@ -292,9 +292,10 @@ footer {
 
 /*Mobile*/
 
-@media(min-width: 500px) {
+@media(max-width: 500px) {
 
     header {
+        flex-wrap:wrap;
         justify-content: center;
     }
 
@@ -318,6 +319,12 @@ footer {
 
     header .logo{
         margin-bottom: 20px;
+    }
+
+    .cta {
+        margin-top: 50px;
+        flex-flow: column;
+        align-items: center;
     }
 
     .cta img{
