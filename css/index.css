@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
     width: 880px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* Header Styles */
@@ -148,12 +148,18 @@ header .logo {
     margin: 30px auto;
 }
 
+@media (max-width: 800px){
+    .main-content{
+
+    }
+}
+
 .main-content .bottom-content {
     display: flex;
 }
 
 .main-content .bottom-content p {
-    padding-right: 20px;
+  /* padding-right: 20px; */  
 }
 
 /* Contact Styles */
@@ -251,7 +257,8 @@ footer {
 @media(max-width: 800px) {
 
     .container {
-        width: 90%;
+        width: 92%;
+      
     }
     
     header{
@@ -262,7 +269,11 @@ footer {
 
     header nav {
         width: 100%;
-        padding: 0 30px;
+       
+
+    }
+    header nav a{
+        margin-right: 35px;
     }
 
 
@@ -282,6 +293,18 @@ footer {
 
     .cta img {
         display: none;
+    }
+
+
+
+    .top-content{
+        margin-bottom: 50px;
+    }
+
+    .middle-img{
+        width: 100%;
+        height: auto;
+
     }
 }
 
