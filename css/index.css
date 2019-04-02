@@ -148,9 +148,9 @@ header .logo {
     margin: 30px auto;
 }
 
-@media (max-width: 800px){
-    .main-content{
-
+@media (max-width: 500px){
+    .cta {
+       margin-top: 70px;
     }
 }
 
@@ -333,16 +333,16 @@ footer {
 
 @media(max-width: 500px) {
 
+    
     header {
-        flex-wrap:wrap;
         justify-content: center;
     }
 
     header nav{
-
         width: 100%;
         flex-direction: column;
-        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 0;
         padding: 0;
     }
 
@@ -350,14 +350,16 @@ footer {
         width: 100%;
         display: block;
         text-align: center;
-        padding: 20px 0;
+        padding: 19.5px 0;
+        border: 0;
         font-size: 20px;
         border-top: 1px solid gray;
         border-bottom: 1px solid gray;
     }
 
     header .logo{
-        margin-bottom: 20px;
+        margin-top: 20px;
+        
     }
 
     .cta {
@@ -370,4 +372,34 @@ footer {
         max-width: 80%;
     }
 
+    .main-content{
+        margin-bottom: 0; 
+    }
+
+    .text-content{
+        margin: 24.5px 10px;
+
+    }
+
+
+    
+    .top-content{
+        flex-direction: column;
+        margin-bottom: 0;
+
+    }
+
+    .main-content .middle-img{
+        margin-top: 7px;
+        
+    }
+
+
+    .bottom-content{
+        flex-direction: column;
+
+    }
+
+    
 }
+
